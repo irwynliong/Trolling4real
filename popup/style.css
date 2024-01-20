@@ -1,0 +1,51 @@
+.adhd-vid-div {
+    position: fixed;
+    z-index: 1000;
+    top: 100px;
+    left: 500px;
+}
+
+.adhd-hidebutton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    background: none;
+    border: none;
+}
+
+.adhd-hidebutton i {
+    color: #000;
+}
+
+
+
+.adhd-movement {
+    height: 20px;
+    background-color: #add8ff;
+    cursor: move;
+}
+
+.adhd-vid {
+    width: 200px;
+    height: 400px;
+    resize: both;
+}
+
+.adhd-nextbutton {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
